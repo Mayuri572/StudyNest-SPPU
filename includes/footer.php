@@ -3,10 +3,10 @@
         <div class="footer-col">
             <h4>StudyNest SPPU</h4>
             <p>Your smart companion for SPPU academic success. We provide top-quality notes, PYQs, and a dedicated student bookstore.</p>
-            <div style="margin-top: 15px; display:flex; gap:15px; font-size:1.2rem;">
-                <a href="#" style="color:#ef4444;"><i class="fa-brands fa-youtube"></i></a>
-                <a href="#" style="color:#e1306c;"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" style="color:#3b5998;"><i class="fa-brands fa-facebook"></i></a>
+            <div style="margin-top:15px; display:flex; gap:15px; font-size:1.2rem;">
+                <a href="#" style="color:#ef4444;" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" style="color:#e1306c;" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" style="color:#3b5998;" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
             </div>
         </div>
         <div class="footer-col">
@@ -29,9 +29,12 @@
         <div class="footer-col">
             <h4>Stay Updated</h4>
             <p>Subscribe for new material alerts.</p>
-            <form class="newsletter-form">
-                <input type="email" placeholder="Email address" class="form-control" style="padding:10px;" required>
-                <button type="submit" class="btn btn-accent" style="padding:10px 15px;"><i class="fa-solid fa-paper-plane"></i></button>
+            <form class="newsletter-form" action="/studynest/index.php" method="POST">
+                <input type="email" name="newsletter_email" placeholder="Email address"
+                       class="form-control" style="padding:10px;" required>
+                <button type="submit" class="btn btn-accent" style="padding:10px 15px;" aria-label="Subscribe">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
             </form>
         </div>
     </div>
