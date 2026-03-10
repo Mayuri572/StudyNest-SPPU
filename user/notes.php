@@ -19,7 +19,7 @@
 
     <div class="product-grid">
         <div class="card">
-            <img src="https://via.placeholder.com/400x250?text=DSA+Notes" class="img-placeholder">
+            <img src="/studynest/assets/images/Data_Structures&Algorithms.png" alt="Data_Structures&Algorithms.png" class="img-placeholder">
             <div class="card-content">
                 <span class="card-tag">Computer Engg</span>
                 <h3 class="card-title">Data Structures & Algorithms</h3>
@@ -28,7 +28,7 @@
             </div>
         </div>
         <div class="card">
-            <img src="https://via.placeholder.com/400x250?text=Maths+III" class="img-placeholder">
+            <img src="/studynest/assets/images/Engineering_Mathematics-III.webp" alt="Engineering_Mathematics-III.webp" class="img-placeholder">
             <div class="card-content">
                 <span class="card-tag">Second Year</span>
                 <h3 class="card-title">Engineering Mathematics III</h3>
